@@ -26,6 +26,6 @@ public class Taller4 {
         asignatura1.cambiarDatos(50);
         System.out.println(asignatura1.codigoExterno);
         System.out.println(estudiantes1[1].cedula);
-        System.out.println(new Persona("Alejandro").cedula);
+        System.out.println(new Persona("Alejandro", 1).cedula);
     }
 }
